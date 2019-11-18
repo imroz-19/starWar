@@ -1,0 +1,97 @@
+.form-container {
+    width: 400px;
+    margin: 50px auto;
+    color: #fff;
+}
+
+@media screen and (min-width: 767px) {
+    .search-input {
+        width: 80% !important;
+        margin-left: 80px;
+    }
+}
+
+.container {
+    position: relative;
+}
+.no-result {
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
+.login-text {
+    text-align: center;
+    margin: 30px auto;
+    color: #fff;
+}
+
+.button {
+    background-color: #000;
+    font-weight: bold;
+    color: yellow;
+    position: relative;
+    left: 36%;
+    top: 40px;
+}
+
+.logout-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.mask {
+    position: absolute;
+    left: 43%;
+    z-index: 1000;
+}
+
+.error {
+    text-align: center;
+    font-weight: bold;
+    color: #FF4438;
+}
+
+
+.fr {
+    float: right;
+}
+
+.start-logo {
+    max-width: 150px;
+    max-height: 150px;
+    margin: 20px auto;
+    padding-top: 20px;
+    display: inherit;
+}
+.planets{
+    position: relative;
+    left: 40%;
+    top: 40px;
+    max-width: 100px;
+    margin: 50px 0;
+}
+svg {
+    -webkit-animation: myOrbit 10s linear infinite; /* Chrome, Safari 5 */
+    -moz-animation: myOrbit 10s linear infinite; /* Firefox 5-15 */
+    -o-animation: myOrbit 10s linear infinite; /* Opera 12+ */
+    animation: myOrbit 10s linear infinite;
+}
+
+@-webkit-keyframes myOrbit {
+    from { -webkit-transform: rotate(0deg) translateX(30px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(30px) rotate(-360deg); }
+}
+
+table {
+     color: #fff;
+ }
+
+.container {
+    background-image: url('../images/img1.jpg');
+    min-height: 600px;
+}
